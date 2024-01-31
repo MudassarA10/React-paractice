@@ -1,0 +1,27 @@
+.weather-container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.cold {
+  background-color: #cce5ff;
+}
+
+.sunny {
+  background-color: #ffe066;
+}
+
+.awesome {
+  background-color: #99ff99;
+}
+
+.hot {
+  background-color: #ff9999;
+}
+
+.too-hot {
+  background-color: #790808;
+  color: white;
+}

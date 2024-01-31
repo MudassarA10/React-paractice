@@ -1,6 +1,8 @@
-import { useState } from 'react';
-import './App.css';
-import Counter from './components/counter/counter';
+import { useState } from "react";
+import "./App.css";
+import Counter from "./components/counter/counter";
+import Condition from "./components/conditional randering/condition";
+
 function App() {
   // const [name, setName] = useState("");
   // const [lname, setLname] = useState("");
@@ -20,13 +22,13 @@ function App() {
 
   // function handleSubmit() {
   //   console.log(name, lname, roll);
-    
+
   // }
 
   return (
     <>
-     <Counter/>
-     
+      {/* <Counter /> */}
+      <Condition />
       {/* <div className="app">
         <label htmlFor="name">Name</label>
         <input type="text" id="name" value={name} onChange={handleNameChange} />
