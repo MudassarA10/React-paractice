@@ -1,4 +1,3 @@
-// Condition.js
 import React, { useState } from "react";
 import ConditionalComponent from "./ConditionalComponent";
 import "./Condition.css";
@@ -12,7 +11,8 @@ function Condition() {
   }
 
   function display() {
-    setWeather(true);
+    setWeather(!weather);
+    setTemp("  ");
   }
 
   return (
